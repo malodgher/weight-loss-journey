@@ -1,6 +1,6 @@
 const init = async () => {
 	//BMI Calculation: Convert weight to kilograms and divide by square of height in meters (convert 66in. to meters by multiplying by 0.0254)
-	const weight_data = await d3.csv("../Datasource/weight_exercise_foodlog.csv", d => {
+	const weight_data = await d3.csv("./datasource/weight_exercise_foodlog.csv", d => {
 		return { 
 			date : d3.timeParse("%Y-%m-%d")(d.Date),
 			weight : Number(d.Weight),
