@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weight Tracker</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+	</head>
+	
+	<body onload="init()">
+		
+		<h1>Weight Tracker</h1>
+		
+		<div id="weightLine">
+			<p>The chart below shows a line graph of my weight over a period of time</p>
+			<p>Hover over the line chart to see how many total cases were reported on a specific day. Hover over a bar in the bar chart
+			to see, for a given day, what the increase in the number of cases were compared to the previous day. You can also use you mouse to zoom
+			in on an area in the bar chart</p>
+			<br>
+		</div>
+		
+		<div class="flex-div">
+			<div id="infoBox"></div>
+		</div>
+		
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
