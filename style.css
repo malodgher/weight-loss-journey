@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap'); /*Imports font from Google Fonts API*/
+
+body {
+	font-family:'Archivo', sans-serif /*font family to use for Google API font*/
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 4em;
+}
+
+.flex-div {
+	display: flex;
+	justify-content: center;
+}
+
+#weightLine p {
+	font-size: 1.5em;
+}
+
+.line-set {
+	fill: none;
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.total-cases {
+	stroke: steelblue;
+}
+
+.target-weight {
+	stroke: #3bf547;
+}
+
+#infoBox {
+	display: flex;
+	justify-content: center;
+	border: 0.5em solid black;
+	border-radius: 1em;
+	margin-bottom: 2.5em;
+	padding: 2.2em;
+	opacity: 0;
+}
+
+#infoBox div p {
+	margin: 0.3em 0em 0.3em 0em;
+}
+
+#infoDate {
+	margin-top: 0em;
+}
