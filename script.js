@@ -115,7 +115,7 @@ const lineSetup = (line_svg, data, date_format) => {
 
 const ulInitialize = (meal_data, meal_container, meal_string) => {
 	if(meal_data === ""){
-		meal_container.html(`${meal_string}: None`)
+		meal_container.html(`${meal_string}: No record`)
 	} else {
 		const mealList = meal_data.split("_")
 		if(meal_data.startsWith("~")) {
